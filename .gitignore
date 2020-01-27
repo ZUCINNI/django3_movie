@@ -4,5 +4,3 @@
 /.vscode
 movies/__pycache__
 .git
-db.sqlite3
-requirements.txt

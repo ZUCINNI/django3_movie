@@ -1238,6 +1238,11 @@ a.move-top span {
     background: #4a4b4c;
 }
 
+.img-movie-shot{
+    max-width: 300px;
+    height: auto;
+}
+
 /*-- //to-top --*/
 
 @media(max-width:1366px) {

@@ -133,7 +133,7 @@ class Reviews(models.Model):
     name = models.CharField("Имя", max_length=100)
     text = models.TextField("Сообщение", max_length=5000)
     parent = models.ForeignKey(
-        'self', verbose_name="родитель",  on_delete=models.SET_NULL, blank=True, null=True
+        'self', verbose_name="родитель", on_delete=models.SET_NULL, blank=True, null=True
     )
     movie = models.ForeignKey(Movie, verbose_name="Фильм", on_delete=models.CASCADE)
 
